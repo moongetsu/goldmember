@@ -1,0 +1,10 @@
+{
+    "NoDNS": {
+        "en": "Put {lime}{SERVER_DNS} {default}in your name to get {lime}Gold Member{default}.",
+        "ro": "Put {lime}{SERVER_DNS} {default}in your name to get {lime}Gold Member{default}."
+    },
+    "HasDNS": {
+        "en": "Thank you for choosing to be a {lime}Gold Member{default}.",
+        "ro": "Thank you for choosing to be a {lime}Gold Member{default}."
+    }
+}

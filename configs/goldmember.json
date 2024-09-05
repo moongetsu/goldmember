@@ -1,0 +1,12 @@
+{
+    "prefix": "{lime}[Swiflty]{default}",
+    "ServerDNS": "SERVER.SWIFTLYCS2.COM",
+    "Benefits": {
+        "HP": 105,
+        "Armor": 105,
+        "Money": 2000,
+        "DefuseKit": true,
+        "HealthShot": true,
+        "Grenades": "weapon_molotov;weapon_flashbang;weapon_smokegrenade;weapon_hegrenade"
+    }
+}
