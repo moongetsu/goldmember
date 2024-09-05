@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/swiftly-solution/swiftly_goldmember">
+<a href="https://github.com/swiftly-solution/goldmember">
 <img src="https://cdn.swiftlycs2.net/swiftly-logo.png" alt="SwiftlyLogo" width="80" height="80">
 </a>
 
@@ -12,17 +12,17 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/downloads/swiftly-solution/swiftly_goldmember/total" alt="Downloads"> 
-  <img src="https://img.shields.io/github/contributors/swiftly-solution/swiftly_goldmember?color=dark-green" alt="Contributors">
-  <img src="https://img.shields.io/github/issues/swiftly-solution/swiftly_goldmember" alt="Issues">
-  <img src="https://img.shields.io/github/license/swiftly-solution/swiftly_goldmember" alt="License">
+  <img src="https://img.shields.io/github/downloads/swiftly-solution/goldmember/total" alt="Downloads"> 
+  <img src="https://img.shields.io/github/contributors/swiftly-solution/goldmember?color=dark-green" alt="Contributors">
+  <img src="https://img.shields.io/github/issues/swiftly-solution/goldmember" alt="Issues">
+  <img src="https://img.shields.io/github/license/swiftly-solution/goldmember" alt="License">
 </p>
 
 ---
 
 ### Installation 👀
 
-1. Downloadthe newest [release of this plugin](https://github.com/swiftly-solution/swiftly_goldmember/releases).
+1. Downloadthe newest [release of this plugin](https://github.com/swiftly-solution/goldmember/releases).
 2. Perform a drag-and-drop installation.
 3. Go in `addons/swiftly/configs/plugins/goldmember.json` and change the values however you want.
 
