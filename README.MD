@@ -1,4 +1,4 @@
-Kv<p align="center">
+<p align="center">
 <a href="https://github.com/swiftly-solution/swiftly_goldmember">
 <img src="https://cdn.swiftlycs2.net/swiftly-logo.png" alt="SwiftlyLogo" width="80" height="80">
 </a>
