@@ -3,7 +3,7 @@ AddEventHandler("OnPlayerSpawn", function (event)
     local player = GetPlayer(playerid)
 
     if not player then return end
-    if player:IsFakeClient() then return end
+    if not player:IsValid() then return end
 
     if not HasDns(player) then
         ReplyToCommand(playerid, config:Fetch("goldmember.prefix"), FetchTranslation("goldmember.NoDNS"):gsub("{SERVER_DNS}", config:Fetch("goldmember.ServerDNS")))
