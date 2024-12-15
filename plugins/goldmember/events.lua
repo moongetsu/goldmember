@@ -25,6 +25,10 @@ AddEventHandler("OnPlayerSpawn", function (event)
             for i = 1, #grenadestogive do
                 player:GetWeaponManager():GiveWeapon(grenadestogive[i])
             end
+            if config:Fetch("goldmember.Benefits.EnableGoldTag") == true then
+                goldtag = config:Fetch("goldmember.Benefits.GoldTag")
+                player:CCSPlayerController().Clan = goldtag
+            end
             if config:Fetch("goldmember.Benefits.Money") and not IsPistolRound() then
                 if not player:CCSPlayerController():IsValid() then return end
                 player:CCSPlayerController().InGameMoneyServices.Account = player:CCSPlayerController().InGameMoneyServices.Account + config:Fetch("goldmember.Benefits.Money")

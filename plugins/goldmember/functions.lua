@@ -1,9 +1,12 @@
 function HasDns(player)
-    local playername = player:CBasePlayerController().PlayerName
-    local serverDNS = config:Fetch("goldmember.ServerDNS")
+    local playername = player:CBasePlayerController().PlayerName:lower()
+    local serverDNS = config:Fetch("goldmember.ServerDNS"):lower()
+    local playernameUpper = player:CBasePlayerController().PlayerName:upper()
+    local serverDNSUpper = config:Fetch("goldmember.ServerDNS"):upper()
 
-    local hasDNS = string.find(playername, serverDNS, 1, true) ~= nil
-    return hasDNS
+    local hasDNSLower = string.find(playername, serverDNS, 1, true) ~= nil
+    local hasDNSUpper = string.find(playernameUpper, serverDNSUpper, 1, true) ~= nil
+    return hasDNSLower or hasDNSUpper
 end
 
 function IsPistolRound()

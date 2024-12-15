@@ -7,6 +7,8 @@
         "Money": 2000,
         "DefuseKit": true,
         "HealthShot": true,
-        "Grenades": "weapon_molotov;weapon_flashbang;weapon_smokegrenade;weapon_hegrenade"
+        "Grenades": "weapon_molotov;weapon_flashbang;weapon_smokegrenade;weapon_hegrenade",
+        "EnableGoldTag": true,
+        "GoldTag": "Gold Member "
     }
 }
